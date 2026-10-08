@@ -1,0 +1,23 @@
+# Data, transcripts, model weights and predictions are not published
+data/
+models/
+.cache/
+*.csv
+*.xlsx
+*.mp3
+*.mp4
+*.arrow
+*.safetensors
+*.bin
+*.pt
+*.db
+
+# Secrets
+.env
+
+# Python and Jupyter clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
